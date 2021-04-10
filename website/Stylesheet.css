@@ -1,0 +1,83 @@
+body{
+        margin: 0px;
+    background-color: #60697c;
+}
+h{
+    color: white;
+    font-weight: bold;
+}
+.main_box{
+    display: flex;
+}
+.slide{
+    width: 50px;
+    height: 650px;
+    background-color: #60697c;
+}
+.text_box{
+    background-color: #3ba0d7;
+    height: 650px;
+    width: 45%;
+    display: flex;
+}
+
+.img img{
+    height: 650px;
+    width: 100%;
+}
+.slide h{
+    font-size: 10px;
+}
+.menu{
+    margin: auto;
+    margin-top: 300px;
+}
+.main_img{
+    margin: 30px 20px;
+}
+.main_img img{
+    width: 130px;
+}
+.menu_bar{
+    margin: 40px 0px;
+}
+ul > li{
+    list-style-type: none;
+    display: inline;
+}
+li > h{
+    font-size: 10px;
+}
+.services{
+    position: relative;
+    width: 97%;
+    left: 3%;
+}
+.we_do{
+    background-color: #f0f2f4;
+    height: 250px;
+}
+.pilosophy{
+    background-color: #df5a21;
+    height: 300px;
+}
+.services_box{
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    top:15%;
+    
+}
+.box{
+    margin: 20px;
+    height: 300px;
+    width: 270px;
+    background-color: white;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: #df5a21;
+    box-shadow: 1px 1px 5px gray;
+}
